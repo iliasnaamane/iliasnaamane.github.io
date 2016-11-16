@@ -9,8 +9,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/bootstrap.css" >
 	<link rel="stylesheet" href="css/style.css" />
-	<script src="js/bootstrap.js"></script>
-	<script src="js/jquery.js"></script>
+
 </head>
 <body>
 	
@@ -34,7 +33,8 @@
 			</div>
 			<div class="picture">
 				
-					<img style="height: 150px ;" class="img-circle" src="portrait.jpg">				
+					<img style="height: 150px ;" class="img-circle" src="portrait.jpg"><br>	
+					<a href="#" class="btn btn-default" data-toggle="modal" data-target="#video-modal"> <i class="fa fa-youtube-play"></i> Play video  </a>	
 				
 			</div>
 		</div>
@@ -314,5 +314,23 @@
 		</div>
 	</div>
 -->
+<!-- Modal -->
+<div id="video-modal" class="modal fade" role="dialog" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+   
+      
+         <iframe width="700" height="390"
+        src="https://www.youtube.com/embed/V8z5fTu5fsM">
+        </iframe> 
+      
+ 
+
+  </div>
+</div>
 </body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+
 </html>
